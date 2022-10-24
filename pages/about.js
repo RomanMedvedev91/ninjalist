@@ -1,15 +1,7 @@
-import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
-import Navbar from "../components/Navbar";
-import Footer from "../components/Footer";
-import Link from "next/link";
-
-export default function Home() {
+const About = () => {
   return (
     <div>
-      <Navbar />
-      <h1>Homepage</h1>
+      <h1>About</h1>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet
         egestas massa. Nullam ultricies erat a felis volutpat tempus. Ut
@@ -27,10 +19,8 @@ export default function Home() {
         rutrum. Phasellus dictum mollis tristique. Curabitur vel felis dapibus
         risus rhoncus eleifend sodales ac enim.
       </p>
-      <Link href='/ninjas'>
-        <a>See Ninja Listing</a>
-      </Link>
-      <Footer />
     </div>
   );
-}
+};
+
+export default About;
